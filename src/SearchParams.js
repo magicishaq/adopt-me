@@ -87,14 +87,6 @@ const SearchParams = () => {
                 <button>Submit</button>
             </form>
             <Results pets={pets} />
-            {pets.map((pet) => {
-           return (
-            <Pet name={pet.name} animal={pet.animal} breed={pet.breed} key={pet.id} /> 
-           )
-       })}
-
-
-
         </div>
     )
 }

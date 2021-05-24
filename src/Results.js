@@ -13,7 +13,7 @@ return(
                 key={pet.id}
                 name={pet.name}
                 breed={pet.breed}
-                images={pet.image}
+                images={pet.images}
                 location={`${pet.city} ,${pet.state}`}
                 id={pet.id} />
 
